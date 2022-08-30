@@ -1,5 +1,10 @@
-function daysInBudget(budget, ratePerHour) {
-    let res = (20000/(89*24));
-    console.log(Math.floor(res));
- }
- daysInBudget(20000, 89);
+const knightIsAwake=true;
+function canExecuteFastAttack(knightIsAwake) {
+    if(knightIsAwake=true){
+        console.log(true);
+    }else{
+        console.log(false);
+    }
+}
+
+canExecuteFastAttack(knightIsAwake);
